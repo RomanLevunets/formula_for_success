@@ -121,7 +121,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   position: relative;
-  font-family: 'pf_beausans_proregular';
+  font: 100% "pf_beausans_proregular", sans-serif;
   min-width: 320px; }
 
 .clr {
@@ -331,10 +331,10 @@ header {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  font-size: 16px;
   line-height: 19px;
   color: #fff;
-  font-family: 'pf_beausans_probold';
+  font: 100% "pf_beausans_probold", sans-serif;
+  font-size: 16px;
   text-decoration: none;
   background-image: url(../images/mail_button.png);
   background-position: 10px;
@@ -363,10 +363,10 @@ header {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  font-size: 16px;
   line-height: 19px;
   color: #fff;
-  font-family: 'pf_beausans_probold';
+  font: 100% "pf_beausans_probold", sans-serif;
+  font-size: 16px;
   text-decoration: none;
   background-image: url(../images/video.png);
   background-position: 10px;
@@ -429,9 +429,9 @@ header {
   position: relative;
   text-decoration: none;
   color: #1b4872;
+  font: 100% "pf_beausans_probold", sans-serif;
   font-size: 14px;
   line-height: 16px;
-  font-family: 'pf_beausans_probold';
   text-transform: uppercase;
   border-bottom: 5px solid #fff;
   border-top: 5px solid #fff;
@@ -458,8 +458,6 @@ header {
   transition: 0.3s; }
 
 .menu .forlang {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   position: relative;
   float: left;
   margin: 0 0 0 0;
@@ -469,7 +467,8 @@ header {
   z-index: 1;
   text-align: center;
   height: 60px;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .menu .forlang .dropdown {
   display: inline-block;
@@ -480,7 +479,6 @@ header {
 
 .menu .forlang .lang {
   color: #ff8800;
-  font-size: 14px;
   line-height: 18px;
   margin: 0 0 0 0;
   padding: 0 14px 0 0;
@@ -490,7 +488,8 @@ header {
   background-repeat: no-repeat;
   display: block;
   text-decoration: none;
-  font-family: 'pf_beausans_probold'; }
+  font: 100% "pf_beausans_probold", sans-serif;
+  font-size: 14px; }
 
 .menu .forlang .lang[aria-expanded="true"] {
   background-image: url(../images/arrow_3H.png); }

@@ -115,8 +115,8 @@ $(document).ready(function() {
 
     $('.leftMenu li > p').click(function () {
             var element = $(this).next();
-            element.slideToggle(300);
-            $('.second-menu:visible').not(element).slideUp(300);
+            element.slideToggle(400);
+            $('.second-menu:visible').not(element).slideUp(400);
 
             $('.leftMenu li > p').not($(this)).removeClass('active');
             $(this).toggleClass('active');
